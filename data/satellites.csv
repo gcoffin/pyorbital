@@ -1,0 +1,7 @@
+name,       distance,      phaseindeg,  direction, radius,     mass,      parentname, atm,    surf_p,  surf_g, molar_mass, surf_temp
+Earth,      0,             0,           0,          6.38E+06,  5.98E+24,  --,         True,   101.3e3, 9.81,   29e-3,      288
+Moon,       3.84E+08,      0,           1.2,        1.74E+06,  7.35E+22,  Earth,      False
+Spaceship,  400E+03,       99,          1,          20,        100e6,     Earth,      False
+TRMMSAT,    700E+03,       100,         1,          10,        10e6,      Earth,      False
+METEOSAT,   36000E+03,     120,         1,          10,        10e6,      Earth,      False
+

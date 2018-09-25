@@ -1,0 +1,1 @@
+call d:\Documents\Perso\DEV\games\pygame\Scripts\activate.bat 

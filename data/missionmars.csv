@@ -1,0 +1,11 @@
+name,    distance,    phaseindeg, direction, radius,    mass, parentname, atm, surf_p,surf_g,molar_mass,surf_temp
+Sun        ,0        ,0         ,1    ,1.39E+09,1.99E+30, --, False
+Mercury    ,5.79E+10 ,354       ,1    ,2.44E+06,3.30E+23,    Sun  ,False
+Venus      ,1.08E+11 ,249       ,1    ,6.05E+06,4.87E+24,    Sun  ,True ,9.3e6   ,9.87 ,44e-3 ,735
+Earth      ,1.50E+11 ,84        ,1    ,6.38E+06,5.98E+24,     Sun  ,True ,101.3e3 ,9.81 ,29e-3 ,288
+Mars       ,2.28E+11 ,139       ,1    ,3.40E+06,6.42E+23,    Sun  ,True,1e3     ,3.7  ,44e-3 ,227
+Jupiter    ,7.78E+11 ,323       ,1    ,7.15E+07,1.90E+27,    Sun  ,True,20e3    ,2.5  ,1e-3  ,165  
+Phobos     ,     9e6 , 0        ,1,    11e3  ,   1.08e16   ,  Mars,False
+Deimos     ,    23e6 , 0        ,1,     6e3  ,   1.80e15   ,  Mars,False
+Moon       ,3.84E+08 ,210         ,1    ,1.74E+06,7.35E+22,    Earth  ,False
+Spaceship  ,7E+06,110       ,1    ,100,100e6,  Earth,False

@@ -1,0 +1,83 @@
+name,   distance,                 phaseindeg,            direction,                                     radius,               mass,           parentname
+i00,	(.3+random())*3.00E+06,    0  ,                    0,                                          rnd.rnd()*5E+05,    rnd.last**3*5E20,--
+i01,	(.3+random())*3.00E+06,    0 -20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i00 
+i02,	(.3+random())*3.00E+06,    0 -20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i01 
+i03,	(.3+random())*3.00E+06,    0 -20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i02 
+i04,	(.3+random())*3.00E+06,    0 -20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i03 
+i05,	(.3+random())*3.00E+06,    0 -20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i04 
+i06,	(.3+random())*3.00E+06,    0 -20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i05 
+i07,	(.3+random())*3.00E+06,    0 -20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i06 
+i08,	(.3+random())*3.00E+06,    0 -20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i07 
+i09,	(.3+random())*3.00E+06,    0 -20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i08 
+i10,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i09
+i11,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i00
+i12,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i01
+i13,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i02
+i14,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i03
+i15,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i04
+i16,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i05
+i17,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i06
+i18,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i07
+i19,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i08
+i20,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i09 
+i21,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i11 
+i22,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i12 
+i23,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i13 
+i24,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i14 
+i25,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i15 
+i26,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i16 
+i27,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i17 
+i28,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i18 
+i29,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i19 
+i30,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i20 
+i31,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i21
+i32,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i22
+i33,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i23
+i34,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i24
+i35,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i25
+i36,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i26
+i37,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i27
+i38,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i28
+i39,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i29
+i100,	1e7+(.3+random())*3.00E+06,    0 -20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i00 
+i101,	(.3+random())*3.00E+06,    0 -20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i00 
+i102,	(.3+random())*3.00E+06,    0 -20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i101 
+i103,	(.3+random())*3.00E+06,    0 -20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i102 
+i104,	(.3+random())*3.00E+06,    0 -20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i103 
+i105,	(.3+random())*3.00E+06,    0 -20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i104 
+i106,	(.3+random())*3.00E+06,    0 -20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i105 
+i107,	(.3+random())*3.00E+06,    0 -20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i106 
+i108,	(.3+random())*3.00E+06,    0 -20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i107 
+i109,	(.3+random())*3.00E+06,    0 -20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i108 
+i110,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i109
+i111,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i100
+i112,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i101
+i113,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i102
+i114,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i103
+i115,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i104
+i116,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i105
+i117,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i106
+i118,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i107
+i119,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i108
+i120,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i109 
+i121,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i111 
+i122,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i112 
+i123,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i113 
+i124,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i114 
+i125,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i115 
+i126,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i116 
+i127,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i117 
+i128,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i118 
+i129,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i119 
+i130,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i120 
+i131,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i121
+i132,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i122
+i133,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i123
+i134,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i124
+i135,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i125
+i136,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i126
+i137,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i127
+i138,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i128
+i139,	(.3+random())*3.00E+06,    90-20+40*random() ,    (random()-0.5+(random()-0.5)*1j)*0.1,      rnd.rnd()*5E+05,    rnd.last**3*5E20,i129
+
+Spaceship, 1e6                ,    0                 ,      1                                 ,      100,                10,              i08
